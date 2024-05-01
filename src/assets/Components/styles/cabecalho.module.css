@@ -1,0 +1,27 @@
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightsalmon;
+    font-size: 20px;
+    color: rgb(36, 23, 23);
+    p {
+        color: rgb(248, 14, 14);
+        margin-left: 50px;
+        font-weight: bold;
+    }
+    ul {
+        margin-right: 24px;
+
+        li {
+            padding-left: 16px;
+            transition: color .5s;
+            cursor: pointer;
+           
+        } li:hover {
+            transition: all .5s;
+            color: rgb(248, 14, 14);
+        }
+    }
+    
+}

@@ -1,0 +1,68 @@
+.estrutura {
+    padding-top: 32px;
+    display: flex;
+    background-color: rgb(230, 68, 68);
+    .text_div {
+        margin-left: 50px;
+        display: flex;
+        max-width: 50%;
+        h1 {
+            font-size: 64px;
+            color: lightsalmon;
+            margin-bottom: 80px;
+        }
+    
+        h2 {
+            font-size: 48px;
+            color: brown;
+            
+    
+        }
+        flex-direction: column;
+       
+       
+        
+    }
+    .img_div {
+    
+        margin-left: 80px;
+        width: 750px;
+        height: 750px;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            border: 5px solid lightsalmon;
+          
+        }
+    }
+    
+
+
+    .btn_style {
+        color: rgb(230, 68, 68);
+        background-color: lightsalmon;
+        display: flex;
+        max-width: 50%;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all .5s;
+    } .btn_style:hover {
+        background-color: rgb(255, 201, 121);
+        transform: scale(105%);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    
